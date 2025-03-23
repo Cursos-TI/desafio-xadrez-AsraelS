@@ -24,6 +24,18 @@ int main() {
         printf("Esquerda\n");
         k++;
     } while (k < 8);
+    printf("\n");
 
+    // Simulação do movimento do Cavalo (2 casas para baixo, 1 casa para a esquerda) com loops aninhados
+    printf("Movimento do Cavalo:\n");
+    for (int m = 0; m < 2; m++) { // Move 2 casas para baixo
+        printf("Baixo\n");
+    }
+    int n = 0;
+    while (n < 1) { // Move 1 casa para a esquerda
+        printf("Esquerda\n");
+        n++;
+    }
+    
     return 0;
 }
